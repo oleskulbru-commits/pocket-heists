@@ -1,0 +1,64 @@
+{
+  "rooms": [
+    {
+      "id": "01",
+      "clear": "U6 R4",
+      "par": 10,
+      "bonus": null,
+      "bonus_moves": null,
+      "catch": null
+    },
+    {
+      "id": "02",
+      "clear": "R U L U5 R4",
+      "par": 12,
+      "bonus": null,
+      "bonus_moves": null,
+      "catch": {
+        "route": "U6 R4",
+        "beat": 8,
+        "cell": "D2",
+        "guard": "A",
+        "reason": "vision"
+      }
+    },
+    {
+      "id": "03",
+      "clear": "R4 U2 L4 U4 R2",
+      "par": 16,
+      "bonus": "R4 U2 L4 U2 R4 U2 L2",
+      "bonus_moves": 20,
+      "catch": {
+        "route": "U2 R4 U4 L2",
+        "beat": 7,
+        "cell": "F5",
+        "guard": "A",
+        "reason": "share"
+      }
+    },
+    {
+      "id": "04",
+      "clear": "U5 R D R2 U2 L3",
+      "par": 14,
+      "bonus": "U5 R D L U R D R2 D2 L3 U4",
+      "bonus_moves": 22,
+      "catch": null
+    },
+    {
+      "id": "05",
+      "clear": "R2 U3 L U R3 U2",
+      "par": 12,
+      "bonus": "R2 U3 L U R D2 R2 U4",
+      "bonus_moves": 16,
+      "catch": null
+    },
+    {
+      "id": "06",
+      "clear": "U4 R3 D R U L U2",
+      "par": 13,
+      "bonus": "R2 U R2 U2 L U L3 U2 R3",
+      "bonus_moves": 17,
+      "catch": null
+    }
+  ]
+}

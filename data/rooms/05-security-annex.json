@@ -1,0 +1,22 @@
+{
+  "id": "05",
+  "name": "Security Annex",
+  "target_name": "blackbox recorder",
+  "par": 12,
+  "hint": "Start across the bottom, then climb through the middle.",
+  "rows": [
+    "#######",
+    "#....E#",
+    "#.###.#",
+    "#.L...#",
+    "#...#.#",
+    "#.#.B.#",
+    "#.#.#.#",
+    "#S....#",
+    "#######"
+  ],
+  "guards": [
+    {"id": "A", "k": 3, "p": 10, "path": ["B3", "B4", "B5", "B6", "B5", "B4"]},
+    {"id": "B", "k": 2, "p": 4, "path": ["F5", "F6", "F7", "F8", "F7", "F6"]}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "02",
+  "name": "Dispatch Office",
+  "target_name": "dispatch ledger",
+  "par": 12,
+  "hint": "Take a short detour before you head up the left corridor.",
+  "rows": [
+    "#######",
+    "#..L.E#",
+    "#.#...#",
+    "#.#.#.#",
+    "#.#.#.#",
+    "#.#.#.#",
+    "#...#.#",
+    "#S....#",
+    "#######"
+  ],
+  "guards": [
+    {"id": "A", "k": 2, "p": 2, "path": ["D4", "D5", "D6", "D7", "D6", "D5"]}
+  ]
+}

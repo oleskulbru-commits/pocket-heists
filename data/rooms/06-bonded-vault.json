@@ -1,0 +1,22 @@
+{
+  "id": "06",
+  "name": "Bonded Vault",
+  "target_name": "prototype core",
+  "par": 13,
+  "hint": "Use the middle passage to change when you reach the exit.",
+  "rows": [
+    "#######",
+    "#...E.#",
+    "#.##..#",
+    "#L....#",
+    "#.##..#",
+    "#...#.#",
+    "#.#B..#",
+    "#S....#",
+    "#######"
+  ],
+  "guards": [
+    {"id": "A", "k": 2, "p": 0, "path": ["B6", "C6", "D6", "C6"]},
+    {"id": "B", "k": 3, "p": 5, "path": ["F2", "F3", "F4", "F5", "F4", "F3"]}
+  ]
+}

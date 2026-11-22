@@ -1,0 +1,19 @@
+{
+  "id": "01",
+  "name": "Service Entrance",
+  "target_name": "brass access seal",
+  "par": 10,
+  "hint": "Pass through the seal before heading to the exit.",
+  "rows": [
+    "#######",
+    "#....E#",
+    "#.....#",
+    "#.##..#",
+    "#L....#",
+    "#.....#",
+    "#..##.#",
+    "#S....#",
+    "#######"
+  ],
+  "guards": []
+}

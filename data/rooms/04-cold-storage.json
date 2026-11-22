@@ -1,0 +1,22 @@
+{
+  "id": "04",
+  "name": "Cold Storage",
+  "target_name": "sealed specimen",
+  "par": 14,
+  "hint": "The left corridor has cover.",
+  "rows": [
+    "#######",
+    "#E....#",
+    "#..#..#",
+    "#..L..#",
+    "#.##..#",
+    "#..B..#",
+    "#.##..#",
+    "#S....#",
+    "#######"
+  ],
+  "guards": [
+    {"id": "A", "k": 2, "p": 0, "path": ["E6", "F6", "F7", "F8", "F7", "F6"]},
+    {"id": "B", "k": 2, "p": 1, "path": ["F3", "F4", "F5", "F4"]}
+  ]
+}
